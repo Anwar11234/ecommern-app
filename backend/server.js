@@ -7,7 +7,7 @@ import {router as productRouter} from './routes/productRoutes.js';
 import {router as imagesRouter} from './routes/imagesRoutes.js';
 const app = express();
 const corsOptions = {
-    origin: "http://localhost:3000" // frontend URI (ReactJS)
+    origin: "https://ecommern-app-frontend1.onrender.com" // frontend URI (ReactJS)
 }
 app.use(express.json());
 app.use(cors(corsOptions));
